@@ -1,0 +1,65 @@
+🎯 OBJETIVO PRINCIPAL
+Predecir qué estudiantes abandonarán la universidad y identificar "materias cuello de botella" que impiden la graduación.
+
+📊 METODOLOGÍA SENCILLA
+Datos usados:
+9,088 registros de estudiantes (2004-2014)
+
+5 carreras: Negocios (3) e Ingeniería (2)
+
+Solo calificaciones de materias obligatorias
+
+Técnica:
+Algoritmo: K-means (clustering no supervisado)
+
+Validación: Índice Calinski-Harabasz
+
+Comparación: Regresión logística
+
+🔍 RESULTADOS CLAVE
+1. 📈 Predicción efectiva:
+Los clusters predijeron bien qué estudiantes se graduarían vs abandonarían
+
+Solo las primeras 3 materias de cada carrera fueron suficientes para predecir
+
+2. 🚧 Materias "cuello de botella" identificadas:
+Ciertas materias determinaban la separación entre clusters
+
+Los estudiantes que reprobaban estas materias tendían a no graduarse
+
+Ejemplo: Si en Business Law hay 1-2 materias que todos reprueban → ahí está el problema
+
+💡  PUNTOS DESTACADOS
+Preguntas probables y sus respuestas:
+¿Por qué usar K-means y no otro algoritmo?
+
+Porque buscaban clusters basados en calificaciones numéricas
+
+K-means es efectivo con datos numéricos y patrones claros
+
+¿Qué son "materias cuello de botella"?
+
+Son aquellas que determinan si un estudiante sigue o abandona
+
+Si las repruebas, es muy probable que no te gradúes
+
+¿Por qué solo las primeras 3 materias?
+
+Porque dan señal temprana del desempeño futuro
+
+Permite intervenir a tiempo para evitar la deserción
+
+¿Qué ventaja tiene este enfoque?
+
+Es simple: solo necesita calificaciones
+
+Identifica problemas específicos del plan de estudios
+
+🎓 CONCLUSIÓN GENERAL
+Este paper muestra que analizando solo las calificaciones se puede:
+
+✅ Predecir deserción temprana
+
+✅ Identificar materias problemáticas
+
+✅ Crear sistemas de alerta para universidades

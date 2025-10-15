@@ -1,0 +1,69 @@
+🎯 PROPÓSITO DEL ESTUDIO
+Determinar qué algoritmo de Machine Learning tiene mejor desempeño para predecir deserción universitaria en Perú.
+
+📊 METODOLOGÍA
+Datos:
+652 estudiantes de una universidad peruana (2018-2021)
+
+106 datos válidos después de limpieza
+
+70% entrenamiento, 30% prueba
+
+Algoritmos comparados:
+K-Nearest Neighbor (KNN)
+
+Support Vector Machine (SVM)
+
+Regresión Logística
+
+Árbol de Decisión
+
+Variables usadas:
+Socioeconómicas: trabajo, tipo de colegio, ingreso familiar
+
+Académicas: promedio, créditos aprobados, repitencias
+
+🏆 RESULTADOS - ¡GANADOR CLARO!
+Precisión por algoritmo:
+Algoritmo	Precisión Total	Solo Académicas	Solo Socioeconómicas
+KNN	91%	88%	59%
+SVM	88%	81%	66%
+Regresión Logística	81%	81%	69%
+Árbol de Decisión	81%	84%	59%
+🔍 HALLAZGOS IMPORTANTES
+Tipos de deserción encontrados:
+47% Abandono definitivo de matrícula
+
+43% Reserva de matrícula (abandono temporal)
+
+6% Retiro voluntario
+
+2% Renuncia definitiva
+
+Variables más correlacionadas:
+Promedio académico y créditos aprobados (96% correlación)
+
+Bajo rendimiento académico = principal factor de riesgo (43%)
+
+Fortalezas:
+Comparación directa de 4 algoritmos
+
+Resultados concretos con KNN ganando claramente
+
+Análisis por tipo de variables (solo académicas vs mixtas)
+
+Limitaciones:
+Muestra pequeña (solo 106 datos válidos)
+
+Variables socioeconómicas no predicen bien solas (59%)
+
+Aportes principales:
+KNN es el mejor para datos mixtos (académicos + socioeconómicos)
+
+Las variables académicas son más predictivas que las socioeconómicas
+
+La deserción es gradual: primero reservan matrícula, luego abandonan
+
+🎓 CONCLUSIÓN GENERAL
+KNN con 91% de precisión es el mejor algoritmo para predecir deserción cuando se combinan variables académicas y socioeconómicas. Las universidades pueden usar este modelo para identificar estudiantes en riesgo desde los primeros ciclos.
+

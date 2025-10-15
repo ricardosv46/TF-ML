@@ -1,0 +1,69 @@
+🎯 PROPÓSITO DEL ESTUDIO
+Predecir la deserción estudiantil en la Universidad Politécnica Estatal del Carchi (Ecuador) usando modelos estadísticos.
+
+📊 METODOLOGÍA
+Datos:
+3,821 estudiantes (8 periodos académicos, 2016-2020)
+
+13 variables divididas en 3 grupos:
+
+Individuales: edad, sexo, etnia, discapacidad
+
+Familiares: educación de padres, miembros del hogar, residencia
+
+Académicas: carrera, tipo de colegio, nivel, promedio
+
+Técnica:
+Regresión Logística (comparada con Análisis Discriminante)
+
+3 modelos propuestos con diferentes variables
+
+🏆 RESULTADOS PRINCIPALES
+Modelo ganador: Modelo 2
+Precisión: 90%
+
+Sensibilidad: 94.17% (detecta bien a los que SÍ abandonan)
+
+Especificidad: 87.60% (algo de falsos positivos)
+
+AUC (área bajo curva ROC): 0.962 (excelente)
+
+Variables más importantes:
+Edad del estudiante
+
+Número de miembros en el hogar
+
+Nivel de estudio (semestre)
+
+Promedio académico
+
+Hallazgos sorprendentes:
+NO influyen: etnia, discapacidad, tipo de colegio
+
+SÍ influye: educación de los padres (a más educación, menos deserción)
+
+La deserción es mayor en el primer semestre
+
+Fortalezas:
+Datos reales de 3,821 estudiantes
+
+Validación rigurosa (train/test, curvas ROC)
+
+Variables diversas (no solo académicas)
+
+Resultados concretos con 90% de precisión
+
+Limitaciones:
+Solo datos cuantitativos (falta perspectiva cualitativa)
+
+Falsos positivos (etiquetan como desertores a quienes no lo serían)
+
+Aportes principales:
+Identifica factores específicos para universidades ecuatorianas
+
+Modelo simple pero efectivo (regresión logística)
+
+Evidencia que la deserción ocurre temprano (primer semestre)
+
+🎓 CONCLUSIÓN GENERAL
+Este paper demuestra que con técnicas estadísticas tradicionales (regresión logística) y datos institucionales básicos se puede predecir deserción con alta precisión (90%). Es especialmente útil para universidades con recursos limitados.

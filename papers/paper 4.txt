@@ -1,0 +1,83 @@
+🎯 PROPÓSITO DEL PAPER
+Proponer un modelo predictivo usando Deep Learning para predecir deserción estudiantil en universidades virtuales colombianas.
+
+🧠 ENFOQUE TÉCNICO
+Algoritmo: Aprendizaje Profundo (Redes Neuronales)
+
+Plataforma: TensorFlow (de Google)
+
+Tipo: Supervisado (usando datos históricos etiquetados)
+
+📊 VARIABLES QUE USARÍAN
+Factores individuales:
+Edad
+
+Factores académicos:
+Promedio estudiantil
+
+Puntaje ICFES (examen de ingreso)
+
+Número de ingresos al campus virtual
+
+Factores socioeconómicos:
+Estrato socioeconómico
+
+Ingresos económicos
+
+Factores institucionales:
+Costo semestral
+
+🏗️ ARQUITECTURA PROPUESTA
+Tecnologías:
+Google Cloud (computación en la nube)
+
+MySQL (base de datos)
+
+TensorFlow (redes neuronales)
+
+Anaconda (entorno de desarrollo)
+
+Flujo del modelo:
+Recoger datos históricos de estudiantes
+
+Preprocesar y normalizar datos
+
+Entrenar red neuronal
+
+Predecir probabilidades de deserción
+
+Alertar a bienestar estudiantil
+
+Fortalezas de esta propuesta:
+Usa variables más diversas (no solo académicas)
+
+Específico para educación virtual
+
+TensorFlow es una tecnología moderna y potente
+
+Limitaciones:
+Es solo una propuesta (no tiene resultados reales)
+
+No incluye variables importantes como:
+
+Acceso a internet
+
+Situación laboral
+
+Estado civil
+
+Aportes principales:
+Enfoque en educación virtual (diferente a los otros papers)
+
+Uso de Deep Learning (más avanzado que clustering)
+
+Arquitectura tecnológica completa propuesta
+
+🎓 CONCLUSIÓN GENERAL
+Este paper propone pero no prueba un modelo. Su valor está en:
+
+✅ Diseñar un sistema específico para educación virtual
+
+✅ Integrar múltiples tipos de variables
+
+✅ Usar tecnologías modernas (TensorFlow, Google Cloud)
